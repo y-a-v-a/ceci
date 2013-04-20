@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Responsive Sausage Dog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+<style>
+.sd {
+   height: 502px;
+   float: left;
+   margin: 3em 0; 
+}
+@media all and (min-height:600px) {
+    .sd {
+        margin-top: 2em;
+    }
+}
+.sd img {
+    display: block;
+}
+.sd.sd-1 {
+	width: 29%;
+}
+.sd.sd-1 img {
+    float: right;
+}
+.sd.sd-2 {
+    width: 59%;
+}
+.sd.sd-2 img {
+    width: 100%;
+}
+.sd.sd-3 {
+	width: 12%;
+}
+</style>
+</head>
+<body>
+	<!--
+		1442 | 416 854 172
+		100  |  29  59  12
+	-->
+<div class="sd sd-1">
+    <img src="images/ceci-2.jpg" alt="" height="502">
+</div>
+<div class="sd sd-2">
+    <img src="images/n-est-pas-2.jpg" alt="" height="502">
+</div>
+<div class="sd sd-3">
+    <img src="images/une-pipe-2.jpg" alt="" height="502">
+</div>
+<script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-xxxxx-x']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</body>
+</html>
