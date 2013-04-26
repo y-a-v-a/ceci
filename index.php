@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -7,24 +8,22 @@
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-		<div class="image">
-		<!--
-			1442 | 416 854 172
-			100  |  29  59  12
-		-->
-		<div class="sd sd-1">
-		    <img src="images/ceci.jpg" alt="" height="270">
-		</div>
-		<div class="sd sd-2">
-		    <img src="images/n-est-pas.jpg" alt="" height="270">
-		</div>
-		<div class="sd sd-3">
-		    <img src="images/une-pipe.jpg" alt="" height="270">
-		</div>
-		</div>
-		<div class="text">
-			<img src="images/text.jpg">
-		</div>
+		<article>
+			<div class="image">
+				<div class="ceci">
+				    <img src="images/ceci.png" alt="" height="270">
+				</div>
+				<div class="n-est-pas">
+				    <img src="images/n-est-pas.png" alt="" height="270">
+				</div>
+				<div class="une-pipe">
+				    <img src="images/une-pipe.png" alt="" height="270">
+				</div>
+			</div>
+			<div class="trehison">
+				<img src="images/text.png">
+			</div>
+		</article>
 
 		<script>
 		  var _gaq = _gaq || [];
