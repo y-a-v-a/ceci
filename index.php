@@ -1,4 +1,6 @@
-<?php session_start(); ?>
+<?php session_start();
+//echo base64_encode(@file_get_contents('images/text.png'));exit;
+ ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -11,17 +13,17 @@
 		<article>
 			<div class="image">
 				<div class="ceci">
-				    <img src="images/ceci.png" alt="" height="270">
+				    <img src="images/ceci.png" alt="" height="270" width="167">
 				</div>
 				<div class="n-est-pas">
 				    <img src="images/n-est-pas.png" alt="" height="270">
 				</div>
 				<div class="une-pipe">
-				    <img src="images/une-pipe.png" alt="" height="270">
+				    <img src="images/une-pipe.png" alt="" height="270" width="57">
 				</div>
 			</div>
 			<div class="trehison">
-				<img src="images/text.png">
+				<img src="images/text.png" width="560" height="62">
 			</div>
 		</article>
 

@@ -17,8 +17,12 @@ body {
 }
 
 .n-est-pas {
+	flex: 50;
+	box-flex: 50;
+	-moz-flex: 50;
+	-moz-box-flex: 50;
 	-webkit-flex: 50;
-	-webkit-box-flex: 20;
+	-webkit-box-flex: 50;
 }
 
 .n-est-pas img {
