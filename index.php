@@ -1,5 +1,4 @@
 <?php session_start();
-//echo base64_encode(@file_get_contents('images/text.png'));exit;
  ?>
 <!DOCTYPE html>
 <html>
