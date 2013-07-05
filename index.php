@@ -23,8 +23,9 @@
 				</div>
 			</div>
 			<div class="trehison">
-				<img src="images/text.png" width="560" height="62">
+				<img src="images/text.png" width="366" height="41">
 			</div>
+			<img id="signature" src="images/magritte.png" width="30" height="13">
 		</article>
 
 		<script>

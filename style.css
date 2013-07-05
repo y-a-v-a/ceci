@@ -34,7 +34,7 @@ body {
 }
 
 .trehison {
-	width: 560px;
+	width: 366px;
 	margin: 0 auto;
 }
 
@@ -42,8 +42,14 @@ body {
 	width: 100%;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 366px) {
 	.trehison {
 		width: 100%;
 	}
+}
+
+#signature {
+	position: absolute;
+	right: 0;
+	top: 307px;
 }
