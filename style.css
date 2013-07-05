@@ -53,3 +53,7 @@ body {
 	right: 0;
 	top: 307px;
 }
+
+footer {
+	display: none;
+}
