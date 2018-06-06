@@ -3,30 +3,35 @@ body {
 	margin: 0;
 	line-height: 0;
 	background: transparent url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAHlBMVEXu4rvt4rvt4brt4bnt4bvt4Lns4Lns4bns4brs4Lr5a6vtAAAAfklEQVR42n3M0Q6AIAxDUXQ44f9/2BlCmlHoXs9dy7zrv3s5M0te9wF8H2i3yeGnQLvBT8FguAjYZ1DFwFOGnwbcS/g58AjgHDgF5Ah44HUKyBHwQLgMmudg5XAVtN5TID0CdhnAESQOVwEcATkF2r2QUyAdQRuuAjgH+OfgAzJxDpnyiiqFAAAAAElFTkSuQmCC');
+	height: 100vh;
+	width: 100vw;
 }
 
-article {
-    position: relative;
+.wall {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+figure {
+	position: relative;
+	width: 100%;
+	margin: 0;
 }
 
 .image {
 	width: 100%;
-	display: -moz-box;
-	display: -webkit-box;
-	display:box;
+	display: flex;
 }
 
 .ceci {
-	width: 167px;
+  flex: 0 0 167px;
 }
 
 .n-est-pas {
-	flex: 50;
-	box-flex: 50;
-	-moz-flex: 50;
-	-moz-box-flex: 50;
-	-webkit-flex: 50;
-	-webkit-box-flex: 50;
+	flex: 1 1 auto;
 }
 
 .n-est-pas img {
@@ -34,7 +39,7 @@ article {
 }
 
 .une-pipe {
-	width: 57px;
+	flex: 0 0 57px;
 }
 
 .trahison {
@@ -50,24 +55,6 @@ article {
 	.trahison {
 		width: 100%;
 	}
-}
-
-@media screen and (min-width: 768px) {
-    article {
-        margin-top: 240px;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    article {
-        margin-top: 160px;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    article {
-        margin-top: 180px;
-    }
 }
 
 #signature {
