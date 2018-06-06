@@ -12,7 +12,7 @@
 		<link rel="shortcut icon" href="favicon.png">
 		<link rel="stylesheet" href="style.css">
 		<!--
-			la-trahison-des-images.be en ceci-n-est-pas-une-pipe.be van ax710 en _y_a_v_a_
+			la-trahison-des-images.be van ax710 en _y_a_v_a_
 			is in licentie gegeven volgens een
 			Creative Commons Naamsvermelding 3.0 Nederland licentie
 		-->
@@ -30,27 +30,26 @@
 				    <img src="images/une-pipe.png" alt="" height="270" width="57">
 				</div>
 			</div>
-			<div class="trehison">
+			<div class="trahison">
 				<img src="images/text.png" width="366" height="41">
 			</div>
 			<img id="signature" src="images/magritte.png" width="30" height="13">
 		</article>
 
 		<footer>
-		<a href="http://la-trahison-des-images.be">la-trahison-des-images.be</a> en <a href="http://ceci-n-est-pas-une-pipe.be/">ceci-n-est-pas-une-pipe.be</a>
-		 van <a href="http://www.ax710.org/" rel="cc:attributionURL">ax710</a> &amp; <a href="http://www.y-a-v-a.org/" rel="cc:attributionURL">y-a-v-a.org</a>
-			is in licentie gegeven volgens een <a rel="license" href="http://creativecommons.org/licenses/by/3.0/nl/">Creative Commons Naamsvermelding 3.0 Nederland licentie</a>.
+		<a href="http://la-trahison-des-images.be">la-trahison-des-images.be</a> van <a href="http://www.ax710.org/" rel="cc:attributionURL">ax710</a>
+        &amp; <a href="http://www.y-a-v-a.org/" rel="cc:attributionURL">y-a-v-a.org</a> is in licentie gegeven volgens een
+        <a rel="license" href="http://creativecommons.org/licenses/by/3.0/nl/">Creative Commons Naamsvermelding 3.0 Nederland licentie</a>.
 		</footer>
-		<script>
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-xxxxx-x']);
-		  _gaq.push(['_trackPageview']);
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-		  (function() {
-		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
-		</script>
+          ga('create', 'UA-16179947-17', 'la-trahison-des-images.be');
+          ga('send', 'pageview');
+
+        </script>
 	</body>
 </html>

@@ -5,6 +5,10 @@ body {
 	background: transparent url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAHlBMVEXu4rvt4rvt4brt4bnt4bvt4Lns4Lns4bns4brs4Lr5a6vtAAAAfklEQVR42n3M0Q6AIAxDUXQ44f9/2BlCmlHoXs9dy7zrv3s5M0te9wF8H2i3yeGnQLvBT8FguAjYZ1DFwFOGnwbcS/g58AjgHDgF5Ah44HUKyBHwQLgMmudg5XAVtN5TID0CdhnAESQOVwEcATkF2r2QUyAdQRuuAjgH+OfgAzJxDpnyiiqFAAAAAElFTkSuQmCC');
 }
 
+article {
+    position: relative;
+}
+
 .image {
 	width: 100%;
 	display: -moz-box;
@@ -33,19 +37,37 @@ body {
 	width: 57px;
 }
 
-.trehison {
+.trahison {
 	width: 366px;
 	margin: 0 auto;
 }
 
-.trehison img {
+.trahison img {
 	width: 100%;
 }
 
 @media screen and (max-width: 366px) {
-	.trehison {
+	.trahison {
 		width: 100%;
 	}
+}
+
+@media screen and (min-width: 768px) {
+    article {
+        margin-top: 240px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    article {
+        margin-top: 160px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    article {
+        margin-top: 180px;
+    }
 }
 
 #signature {
