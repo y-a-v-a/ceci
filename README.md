@@ -18,24 +18,6 @@ The middle word, *n'est pas* ("is not"), stretches to fill whatever width the
 browser window has. So the sentence is never quite the same shape twice: the
 treachery of the image becomes literally *responsive*.
 
-## How it works
-
-It's a deliberately small, dependency-free page:
-
-- **`index.php`** — a single page (PHP is used only for `session_start()`; the
-  markup is otherwise static HTML). The painting's text is assembled from
-  separate images placed in a flex row.
-- **`style.css`** — the layout. A flexbox row holds the three text fragments;
-  the `ceci` and `une pipe` pieces have fixed widths while `n-est-pas`
-  (`flex: 1 1 auto`) absorbs the remaining space. A tiled, base64-embedded
-  background gives the "wall" texture, and a media query keeps the lower
-  signature line readable on narrow screens.
-- **`images/`** — the artwork fragments (`ceci.png`, `n-est-pas.png`,
-  `une-pipe.png`), the full signature line
-  (`ceci-n-est-pas-une-pipe.png`), Magritte's signature (`magritte.png`),
-  and the wall background (`bg.png`).
-- **`favicon.*`** — site icons.
-
 ## Running it locally
 
 The page only needs a server that can run PHP. From the project root:
