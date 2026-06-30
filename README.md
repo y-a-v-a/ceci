@@ -47,9 +47,6 @@ php -S localhost:8000
 Then open <http://localhost:8000> and resize the window to watch the pipe
 stretch.
 
-> Note: `index.php` references Google Analytics (`UA-16179947-17`), which is
-> tied to the live deployment and can be ignored or removed for local use.
-
 ## Credits & license
 
 Created by **[ax710](http://www.ax710.org/)** & **[y-a-v-a.org](http://www.y-a-v-a.org/)**.

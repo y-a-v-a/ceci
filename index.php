@@ -45,14 +45,5 @@
         &amp; <a href="http://www.y-a-v-a.org/" rel="cc:attributionURL">y-a-v-a.org</a> is in licentie gegeven volgens een
         <a rel="license" href="http://creativecommons.org/licenses/by/3.0/nl/">Creative Commons Naamsvermelding 3.0 Nederland licentie</a>.
 		</footer>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-16179947-17', 'la-trahison-des-images.be');
-      ga('send', 'pageview');
-    </script>
 	</body>
 </html>
